@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: century gothic;
+
+}
+
+div.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.navegador {
+    margin: 1rem au;
+}
+
+/*icono*/
+.navbar-toggler-icon {
+    background-color: #CE3C3C;
+    padding: 1em 1em;
+    border-radius: 50%;
+    border: solid #EA7777 2px;
+}
+
+/*quitar borde del boton*/
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0);
+    margin: 0 auto;
+}
+
+.logo {
+    width="100%";
+    height="100%";
+}
+
+.navbar-nav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.texto h1 {
+    text-align: center;
+    font-family: bodoni;
+    color: whitesmoke;
+    text-shadow: 6px 6px 7px black;
+    background-image: url(images/mucha2.jpg);
+    padding: 1rem;
+}
+
+.texto p {
+    text-align: center;
+    color: white;
+    background-color: #CE3C3C;
+    padding: 1rem;
+}
+
+.maps {
+    margin: 5rem auto;
+    text-align: center;
+    color: #CE3C3C;
+    border: solid #CE3C3C 2px;
+    height: 500px;
+
+}
+.iframeMapa{
+    min-height:400px;
+}
+
+footer {
+    color: whitesmoke;
+    background-color: #CE3C3C;
+    padding: 1rem;
+}
+
+.exposiciones{
+    text-align: center;
+    color: #CE3C3C;
+}
+.expoR{
+    text-align: right;
+    margin: 0 1em;
+}
+.expoL{
+    text-align: left;
+    margin: 0 1em;
+}
+.expoR h2, .expoL h2{
+    text-align:center;
+    margin-top: 5em;
+    display: inline-block;
+    background-color:#CE3C3C;
+    color:whitesmoke;
+    border-radius: 1em 1em 0 0;
+    box-shadow: #2A0202 6px 6px 10px;
+    
+}
+.expoL p, .expoR p{
+    text-align:center;
+    display: inline-block;
+    background-color:#CE3C3C;
+    color:whitesmoke;
+    margin-bottom: 1em;
+    box-shadow: #2A0202 6px 6px 10px;
+}
+.exposiciones img{
+    background-color: #CE3C3C;
+    box-shadow: #2A0202 6px 6px 10px;
+    border-radius:0 0 1em 1em;
+}
+#pintura, #escultura{
+    background-color: #CE3C3C;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
